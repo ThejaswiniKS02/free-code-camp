@@ -1,0 +1,73 @@
+body{
+  display: block;
+  width: 60%;
+  background-color: #ECCEAE;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  font-family: verdana;
+  font-size: 20px;
+}
+form{
+  background: #131842;
+  display: inline-block;
+  width: 350px;
+  text-align: left;
+  padding: 20px;
+  border: 2px solid #FBF6E2;
+  font-size:15px;
+}
+input,.drop{
+  width: 100%;
+  border: 1px solid #FBF6E2;
+  height: 2em ;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 7px;
+  margin-left: 0;
+  margin-top: 10px
+}
+input[type="radio"]{
+  display: inline-block;
+  flex-direction: row;
+  width: 5%;
+}
+input[type="checkbox"]{
+  width: 5%;
+  display: inline-block; 
+}
+input[type="submit"]{
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid black;
+  height: 2.5em;
+  background-color: #088395;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  margin-top: 15px;
+}
+label{
+  color: white;
+  display: block;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 12px 12px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #FBF6E2;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  }
+.recom,.check {
+  margin-top: 10px;
+}
+.radio,.checkbox{
+  width: unset;
+  margin: 10 0.5em 10 10;
+  vertical-align: middle;
+}
