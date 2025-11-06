@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Python Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <header id="main-header">   
+    <nav id="navbar">
+      <header>Python Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#Syntax">Syntax</a></li>
+        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li><a class="nav-link" href="#Datatypes">Datatypes</a></li>
+        <li><a class="nav-link" href="#Strings">Strings</a></li>
+        <li><a class="nav-link" href="#Casting">Casting</a></li>
+        <li><a class="nav-link" href="#Lists">Lists</a></li>
+        <li><a class="nav-link" href="#Sets">Sets</a></li>
+        <li><a class="nav-link" href="#Tuples">Tuples</a></li>
+        <li><a class="nav-link" href="#Dictionaries"> Dictionaries</a></li>
+        <li><a class="nav-link" href="#Loops">Loops</a></li>
+        <li><a class="nav-link" href="#Functions">Functions</a></li>
+      </ul>
+    </nav>
+    </header>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</p>
+        <p>It is used for:</p>
+        <li>web development (server-side)</li>
+        <li>software development</li>
+        <li>mathematics</li>
+        <li>system scripting</li>
+      </section>
+      <section class="main-section" id="Syntax">
+        <header>Syntax</header>
+        <p>Python syntax can be executed by writing directly in the Command Line:</p>
+        <code>>>> print("Hello, World!")<br>Hello, World!</code>
+        <p>Indentation refers to the spaces at the beginning of a code line.
+Python uses indentation to indicate a block of code.</p>
+      </section>
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <p>A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:</p>
+        <li>A variable name must start with a letter or the underscore character</li>
+        <li>A variable name cannot start with a number</li>
+        <li>A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )</li>
+        <li>Variable names are case-sensitive (age, Age and AGE are three different variables)</li>
+        <li>A variable name cannot be any of the Python keywords</li>
+      </section>
+      <section class="main-section" id="Datatypes">
+        <header>Datatypes</header>
+        <p>Python has the following data types built-in by default, in these categories:</p>
+        <li>Text Type:	str</li>
+        <li>Numeric Types:	int, float, complex</li>
+        <li>Sequence Types:	list, tuple, range</li>
+        <li>Mapping Type:	dict</li>
+        <li>Set Types:	set, frozenset</li>
+        <li>Boolean Type:	bool</li>
+        <li>Binary Types:	bytes, bytearray, memoryview</li>
+        <li>None Type:	NoneType</li>
+      </section>
+      <section class="main-section" id="Strings">
+        <header>Strings</header>
+        <p>Strings in python are surrounded by either single quotation marks, or double quotation marks.</p>
+        <p>'hello' is the same as "hello".</p>
+        <p>You can display a string literal with the print() function:</p>
+        <code>print("It's alright")<br>
+        print("He is called 'Johnny'")<br>
+print('He is called "Johnny"')</code>
+      </section>
+      <section class="main-section" id="Casting">
+        <header>Casting</header>
+        <p>Casting in python is done using constructor functions:</p>
+        <li>int() - constructs an integer number from an integer literal, a float literal or a string literal</li>
+        <li>float() - constructs a float number from an integer literal, a float literal or a string literal</li>
+        <li>str() - constructs a string from a wide variety of data types, including strings, integer literals and float literals</li>
+      </section>
+      <section class="main-section" id="Lists">
+        <header>Lists</header>
+        <p>Lists are used to store multiple items in a single variable.</p>
+        <p>Lists are created using square brackets:</p>
+        <code>thislist = ["apple", "banana", "cherry"]<br>
+print(thislist)</code>
+      </section>
+      <section class="main-section" id="Sets">
+        <header>Sets</header>
+        <p>A set is a collection which is unordered, unchangeable and unindexed.</p>
+        <code>thisset = {"apple", "banana", "cherry"}<br>
+print(thisset)</code>
+      </section>
+      <section class="main-section" id="Tuples">
+        <header>Tuples</header>
+        <p>A tuple is a collection which is ordered and unchangeable.Tuples are written with round brackets.</p>
+        <code>thistuple = ("apple", "banana", "cherry")<br>
+print(thistuple)</code>
+      </section>
+      <section class="main-section" id="Dictionaries">
+        <header>Dictionaries</header>
+        <p>Dictionaries are used to store data values in key:value pairs. A dictionary is a collection which is ordered, changeable and do not allow duplicates.</p>
+        <code>thisdict = {<br>
+  "brand": "Ford",<br>
+  "model": "Mustang",<br>
+  "year": 1964<br>
+}<br>
+print(thisdict)</code>
+      </section>
+      <section class="main-section" id="Loops">
+        <header>Loops</header>
+        <p>Python has two primitive loop commands:</p>
+        <li>while loops</li>
+        <li>for loops</li>
+        <p>With the while loop we can execute a set of statements as long as a condition is true.</p>
+        <code>i = 1<br>
+while i < 6:<br>print(i)<br>i += 1</code>
+        <p>A for loop is used for iterating over a sequence.</p>
+        <code>fruits = ["apple", "banana", "cherry"]<br>
+for x in fruits:<br>
+  print(x)</code>
+      </section>
+      <section class="main-section" id="Functions">
+        <header>Functions</header>
+        <p>A function is a block of code which only runs when it is called.</p>
+        <p>You can pass data, known as parameters, into a function. A function can return data as a result.</p>
+        <p>In Python a function is defined using the def keyword:</p>
+        <code>def my_function():
+    print("Hello from a function")</code>
+      </section>
+    </main>
+  </body>
+</html>
